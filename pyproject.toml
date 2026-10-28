@@ -7,7 +7,9 @@ authors = [
     { name = "clr1235", email = "15035291867@163.com" }
 ]
 requires-python = ">=3.12,<3.13"
-dependencies = []
+dependencies = [
+    "pydantic>=2,<3",
+]
 
 [project.scripts]
 agent-career-lab = "agent_career_lab:main"
