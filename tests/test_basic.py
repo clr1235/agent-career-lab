@@ -8,6 +8,7 @@ def test_add():
     # 断言实际输出结果为3
     assert result == 3
 
+
 # uv run pytest -q 自动发现并执行测试
 import pytest
 from pydantic import ValidationError
